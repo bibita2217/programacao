@@ -6,12 +6,13 @@
 .cartao{
     margin: 10px;
     padding: 10px;
-    border: 2px solid gray;
+    border: 2px solid rgb(197, 194, 195);
     border-radius: 10px;
 }
 
 footer{
-    background-color: black;
+    background-color: bisque;
+    font-family: Bai Jamjuree;
     color: white;
     position: fixed;
     bottom: 0;
@@ -26,7 +27,7 @@ footer p {
 }
 
 body {
-  background-color: rgb(251, 250, 249);
+  background-url('img/bg-desktop.webp');
   font-family: Bai Jamjuree;
 }
 
@@ -57,7 +58,7 @@ body {
 
  .cartao {
     margin: 1rem 1rem;
-    background-color: rgb(251, 198, 246);
+    background-color: hwb(306 82% 4%);
     height: 20rem;
     flex-grow: 1;
  }
