@@ -37,7 +37,28 @@ body {
 
  .cartao {
     margin: 1rem 1rem;
-    background-color: hwb(306 82% 4%);
     height: 20rem;
     flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+ }
+ 
+ :root {
+   --text-color: #DBE4EF;
+   --card-front-color: #144480;
+   --card-back-color: #00F4BF;
+ }
+
+ .cartao__conteudo h3 {
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
+ }
+
+ .carta__conteudo {
+   background-color: var(--card-front-color);
+   text-aling: center;
+   height: 100%;
+ }
+
+ .cartao__conteudo__pergunta p {
+   color:var(--text-color);
  }
