@@ -27,34 +27,13 @@ footer p {
 }
 
 body {
-  background-url('img/bg-desktop.webp');
+  background: url('img/bg-desktop.webp');
   font-family: Bai Jamjuree;
-}
-
-#container {
-
 }
 
 #container {
     display: flex;
 }
-
-.cartao{
-  margin: 1rem 1rem;
-}
-
-<div class="cartao conteudo resposta">
-   <p>O que é JavaScript?</p>
- </div> 
- <div class="cartao__conteudo__resposta">
-   <p>O Javascript é uma linguagem de programação</p>
- </div
- </div>
-
- .cartao {
-   margin: 1rem 1rem;
-   background-color: aqua;
- }
 
  .cartao {
     margin: 1rem 1rem;
